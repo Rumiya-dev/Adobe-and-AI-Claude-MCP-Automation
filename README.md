@@ -29,6 +29,26 @@ This project is based on customizing and configuring existing MCP server workflo
 - Adobe Illustrator
 - Local filesystem automation
 
+My Contribution
+Configured Claude Desktop to run multiple MCP servers
+Connected Claude with Adobe Photoshop, InDesign and Illustrator workflows
+Adjusted local Python server paths and startup commands
+Tested local MCP server communication
+Fixed setup and integration issues in existing MCP server files
+Added a filesystem MCP server for local file access during automation tests
+Prepared a safe example configuration without private paths or secrets
+Example Use Cases
+Ask Claude to interact with Adobe Photoshop through a local MCP server
+Ask Claude to work with Adobe InDesign automation scripts
+Test AI-assisted document and design automation workflows
+Allow Claude to access a controlled local project folder through filesystem MCP
+Important Note
+
+This repository does not include API keys, private Claude configuration files, company documents, client files, real Adobe project files, or commercial materials.
+
+The configuration file in this repository is an example only. Local paths must be adjusted by each user.
+
+
 ## MCP Configuration
 
 The project uses a Claude Desktop configuration file to register multiple MCP servers.
