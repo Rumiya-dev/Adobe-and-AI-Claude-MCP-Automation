@@ -23,4 +23,6 @@ This project is based on customizing existing open-source MCP server workflows. 
 - Adobe Photoshop
 - Adobe Illustrator
 - Adobe Acrobat
+- Adobe InDesign 
+
 
