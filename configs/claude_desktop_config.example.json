@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "photoshop": {
+      "command": "C:\\adb-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\adb-mcp\\adb-mcp-main\\mcp\\ps-mcp.py"
+      ]
+    },
+    "indesign": {
+      "command": "C:\\adb-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\adb-mcp\\adb-mcp-main\\mcp\\id-mcp.py"
+      ]
+    },
+    "illustrator": {
+      "command": "C:\\adb-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\adb-mcp\\adb-mcp-main\\mcp\\ai-mcp.py"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\test_project"
+      ]
+    }
+  },
+  "preferences": {
+    "coworkScheduledTasksEnabled": false,
+    "ccdScheduledTasksEnabled": false,
+    "sidebarMode": "chat",
+    "coworkWebSearchEnabled": true
+  }
+}
